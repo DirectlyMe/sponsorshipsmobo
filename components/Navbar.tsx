@@ -7,9 +7,9 @@ const height = Dimensions.get('window').height; //full height
 const Navbar = () => {
     return (
         <View style={styles.nav_container}>
-            <Text style={styles.nav_item}>option1</Text>
-            <Text style={styles.nav_item}>option2</Text>
-            <Text style={styles.nav_item}>option3</Text>
+            <Text style={styles.nav_item}>nav1</Text>
+            <Text style={styles.nav_item}>nav2</Text>
+            <Text style={styles.nav_item}>nav3</Text>
         </View>
     );
 }
@@ -23,6 +23,7 @@ const styles = StyleSheet.create({
         alignItems: 'center',
         borderTopWidth: 1,
         borderTopColor: 'black',
+        backgroundColor: 'white',
     },
     nav_item: {
         textAlign: 'center',
